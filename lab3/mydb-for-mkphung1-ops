@@ -1,0 +1,16 @@
+$TTL    3D
+@       IN      SOA     host.mkphung1.ops.      hostmaster.mkphung1.ops.(
+                2018042901       ; Serial
+                8H      ; Refresh
+                2H      ; Retry
+                1W      ; Expire
+                1D      ; Negative Cache TTL
+);
+@       IN      NS      host.mkphung1.ops.
+host    IN      A       192.168.25.1
+@	IN	NS	vm1.mkphung1.ops.
+vm1	IN	A	192.168.25.11
+@	IN	NS	vm2.mkphung1.ops.
+vm2	IN	A	192.168.25.12
+@	IN	NS	vm3.mkphung1.ops.
+vm3	IN	A	192.168.25.13
